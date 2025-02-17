@@ -1,0 +1,70 @@
+/* src/pages/JobCards/JobCards.css */
+.job-cards-page {
+  padding: 20px;
+}
+
+.job-cards-page h1 {
+  color: #2c3e50;
+}
+
+.job-cards-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  padding: 10px;
+  width: 60%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.create-job-button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.create-job-button:hover {
+  background-color: #2980b9;
+}
+
+.job-cards-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.job-card-item {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.job-card-item h3 {
+  color: #333;
+}
+
+.job-card-item p {
+  color: #666;
+}
+
+.view-details-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #27ae60;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.view-details-button:hover {
+  background-color: #219150;
+}
