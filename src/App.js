@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import store from "./redux/store";
 import Dashboard from "./pages/Dashboard";
 import JobCards from "./pages/JobCards/JobCards";
-import FleetManagement from "./pages/FleetManagement";
+import FleetManagement from "./pages/FleetManagement/FleetManagement";
 import PartsInventory from "./pages/PartsInventory";
 
 function App() {
