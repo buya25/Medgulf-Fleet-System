@@ -1,1 +1,2 @@
 npm install eslint prettier eslint-config-prettier eslint-plugin-prettier
+npm install react-icons

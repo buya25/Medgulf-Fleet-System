@@ -1,0 +1,70 @@
+/* src/pages/PartsInventory/PartsInventory.css */
+.parts-inventory-page {
+  padding: 20px;
+}
+
+.parts-inventory-page h1 {
+  color: #2c3e50;
+}
+
+.parts-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  padding: 10px;
+  width: 60%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-part-button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-part-button:hover {
+  background-color: #2980b9;
+}
+
+.parts-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.part-item {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.part-item h3 {
+  color: #333;
+}
+
+.part-item p {
+  color: #666;
+}
+
+.view-details-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #27ae60;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.view-details-button:hover {
+  background-color: #219150;
+}
